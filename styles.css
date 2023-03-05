@@ -1,0 +1,42 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    height: 200px;
+    color: white;
+    padding: 3px 14px;
+    background-color: #1F2937;
+   
+}
+
+li > logo {
+    justify-self: flex-start;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 24px;
+    border: 3px solid red;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    height: 24px;
+    padding: 14px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
