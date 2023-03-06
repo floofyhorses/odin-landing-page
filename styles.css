@@ -13,6 +13,9 @@ header {
     background-color: #1F2937;
    
 }
+logo {
+    color: #F9FAF8;
+}
 
 h1 {
     width:fit-content;
@@ -33,6 +36,11 @@ img {
     justify-content: space-between;
     width:fit-content;
 }
+
+.image {
+    
+}
+
 .menu {
     justify-content: space-between;
     display: flex;
@@ -52,8 +60,7 @@ img {
     background-color: aqua;
     border-radius: 15px;
     padding: 10px;
-    width: 100px;
-    
+    width: 100px; 
 }
 
 .grow { 
@@ -76,6 +83,16 @@ img {
     flex: 1;
 }
 
+.action {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 2px solid #1F2937;
+    background-color: aliceblue;
+    border-radius: 15px;
+    min-width: 200px;
+    min-height: auto;
+}
 .footer {
     color: white;
     background-color: #1F2937;
