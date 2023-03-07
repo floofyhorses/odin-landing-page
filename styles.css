@@ -21,6 +21,9 @@ h1 {
     width:fit-content;
     margin: 0;
 }
+h2 {
+    text-align: center;
+}
 header > p {
     color: rgb(190, 210, 229);
 }
@@ -28,6 +31,9 @@ header > p {
 img {
     width: 35%;
     height: auto;
+    border: 2px solid gray;
+    border-radius: 15px;
+    
 }
 
 .main-image {
@@ -80,6 +86,7 @@ img {
 
 .main-content {
     display: flex;
+    align-items: space-between;
     flex: 1;
 }
 
