@@ -13,8 +13,8 @@ header {
     background-color: #1F2937;
    
 }
-logo {
-    color: #F9FAF8;
+.logo {
+    color: red;
 }
 
 h1 {
@@ -39,11 +39,13 @@ img {
 .main-image {
     display: flex;
     flex: 1;
-    justify-content: space-between;
-    width:fit-content;
+    justify-content: center;
 }
 
 .image {
+    width: 50px;
+    height: auto;
+    flex: 1;
     
 }
 
@@ -84,10 +86,17 @@ img {
     
 }
 
-.main-content {
+.image-container {
     display: flex;
-    align-items: space-between;
+    justify-content: space-around;
     flex: 1;
+    margin-left: 50px;
+ 
+}
+.info {
+    background: lightgrey;
+    padding: 16px;
+    border: 2px solid #1F2937;
 }
 
 .action {
