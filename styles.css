@@ -29,7 +29,7 @@ header > p {
 }
 
 img {
-    width: 35%;
+    width: 50%;
     height: auto;
     border: 2px solid gray;
     border-radius: 15px;
@@ -46,7 +46,6 @@ img {
     width: 50px;
     height: auto;
     flex: 1;
-    
 }
 
 .menu {
