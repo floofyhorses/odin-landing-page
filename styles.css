@@ -8,7 +8,7 @@ body {
 header {
     height: 375px;
     color: white;
-    padding: 3px 14px;
+    padding: 7px 14px;
     background-color: #1F2937;
    
 }
@@ -30,10 +30,11 @@ header > p {
 }
 
 .header-image {
+    display: flex;
+    justify-content: flex-end;
     width: 70%;
     height: auto;
     border-radius: 15px;
-    margin-left: 24px;
 }
 
 img {
